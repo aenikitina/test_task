@@ -1,0 +1,142 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3 {
+    margin: 0;
+    font-weight: 900;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p{
+    line-height: 1,65em;
+}
+
+* {
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.header{
+background: rgba(109,188,248,1);
+background: -moz-linear-gradient(left, rgba(109,188,248,1) 0%, rgba(80,141,211,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(109,188,248,1)), color-stop(100%, rgba(80,141,211,1)));
+background: -webkit-linear-gradient(left, rgba(109,188,248,1) 0%, rgba(80,141,211,1) 100%);
+background: -o-linear-gradient(left, rgba(109,188,248,1) 0%, rgba(80,141,211,1) 100%);
+background: -ms-linear-gradient(left, rgba(109,188,248,1) 0%, rgba(80,141,211,1) 100%);
+background: linear-gradient(to right, rgba(109,188,248,1) 0%, rgba(80,141,211,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6dbcf8', endColorstr='#508dd3', GradientType=1 );
+padding-top: 100px;
+padding-bottom: 70px;
+}
+
+.offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title {
+font-size: 37px;
+width: 573px;
+padding-bottom: 55px;
+}
+.title span{
+    font-size: 59px;
+}
+.intro{
+    width: 402px;
+}
+.btn{
+    font-family: 'Ubuntu', sans-serif;
+    width: 221px;
+    background: #F8D652;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    display: block;
+    padding: 19px 0;
+    text-align: center;
+    margin-top: 40px;
+    transition: all 0.5s ease;
+}
+.btn:hover{
+    background: #e9bc09;
+}
+.picture{
+    margin-top: 70px;
+}
+.future{
+    margin-top: 115px;
+    margin-bottom: 120px;
+}
+.section-title{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+.opportunities{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    align-items: center;
+}
+.possibility{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    align-items: center;
+}
+.possibility-title{
+    font-size: 19px;
+    margin-top: 30px;
+}
+.possibility p{
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.possibility-rocket{
+    width: 310px;
+}
+
+    .contact {
+        background: #EDF2F7;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 55px;
+    }
+    input{
+        width: 340px;
+        border: 1px solid #BBBBBB;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        color: rgb(178, 178, 178);
+        height: 45px;
+        margin-bottom: 13px;
+        padding-left: 15px;
+    }
+    .btn-form{
+        border: none;
+        margin-top: 15px;
+        margin-bottom: 100px;
+    }
+    .footer{
+        background: #264C76;
+        padding: 65px 0;
+        text-align: center;
+        font-size: 14px;
+    }
+    .footer p{
+        margin: 0;
+    }
